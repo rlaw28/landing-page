@@ -15,6 +15,11 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    
+}
+
+a:hover {
+    color:#b38f56;
 }
 
 
@@ -23,7 +28,10 @@ button{
     background-color: #3882F6;
     color: #F9FAF8;
     margin-top: 10px;
-    
+}
+
+button:hover{
+    background-color: #8f9ee3;
 }
 
 
@@ -65,14 +73,25 @@ button{
 
 .container-2{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 40px;
+    align-items: center;
+    padding: 50px;
    
 }
 
-.info{
-   max-width: 250px;
+
+.content-2{
+    display: flex;
+    padding: 30px;
+    gap: 1.5em;
 }
+
+.subtext{
+    display: flex;
+    justify-content: center;
+}
+
 
 .container-3{
     background-color: #E5E7EB;
@@ -86,6 +105,7 @@ button{
    font-size: 36px;
    font-style: italic;
    font-weight: lighter;
+   padding: 30px;
 }
 
 
